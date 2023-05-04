@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+}
+
+body{
+    font-family: 'Molengo', sans-serif;
+    
+}
+header{
+    background-color: red;
+    color: white;
+    height: 100px;
+    font-family: 'Merienda', cursive;
+    padding: 30px;
+    display:flex;
+    flex-direction: row;
+}
+
+#logo{
+    width:50%;
+    background-color:brown;
+}
+
+#menu{
+    width: 50%;
+    background-color: blueviolet;
+    flex-wrap: wrap; 
+}
+main   {
+    padding: 30px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+p{
+    margin-top: 20px;
+}
