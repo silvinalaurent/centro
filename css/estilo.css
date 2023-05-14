@@ -16,7 +16,7 @@ body
 {
     font-family: 'Molengo', sans-serif;
 }
-
+/* 
 header
 {
 	width:100%;
@@ -38,6 +38,38 @@ header
 	margin:auto;
 	cursor: pointer;
     align-items: center;
+} */
+header{
+	width: 100%;
+	height: 120px;
+    background-color: red;
+    color: white;
+    position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+    font-family: 'Merienda', cursive;
+	padding: 10px;
+   
+	margin:0px;
+   
+}
+
+
+.contenedor
+{
+	width: 98%;
+	margin:auto;
+	cursor: pointer;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header .logo
+{
+	height: 100px;
 }
 h1
 {
