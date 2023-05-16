@@ -1,5 +1,3 @@
-
-
 *
 {
 	margin:0;
@@ -7,42 +5,17 @@
 	box-sizing: border-box;
 }
 
-h1
-{
-    font-size: 28px;
-}
 
 body
 {
     font-family: 'Molengo', sans-serif;
-}
-/* 
-header
-{
-	width:100%;
-	height:100px;
-	background: rgb(199, 7, 7);
-	color: #fff;
-	position: fixed;
-	top:0;
-	left:0;
-	z-index: 100;
-    font-family: 'Merienda', cursive;
-	display: block;
-    
-  
+	font-size: 20px;
+	line-height: 2em;
 }
 
-.contenedor
-{
-	width: 98%;
-	margin:auto;
-	cursor: pointer;
-    align-items: center;
-} */
 header{
 	width: 100%;
-	height: 120px;
+	height: 100px;
     background-color: red;
     color: white;
     position: fixed;
@@ -50,14 +23,11 @@ header{
 	left:0;
 	z-index: 100;
     font-family: 'Merienda', cursive;
-	padding: 10px;
-   
-	margin:0px;
    
 }
 
 
-.contenedor
+header .contenedor
 {
 	width: 98%;
 	margin:auto;
@@ -68,25 +38,17 @@ header{
 	justify-content: space-around;
 }
 
-header .logo
-{
-	height: 100px;
-}
 
 h1
 {
-	float: left;
-    padding: 20px;
+    font-size: 28px;
 }
 
 h2	{
-	padding: 30px;
+	
 }
 
-header .contenedor
-{
-	display: table;
-}
+
 
 section
 {
@@ -113,11 +75,25 @@ section
 }
 .izquierda
 {
-    width: 600%;
+    width: 60%;
 }
 .derecha
 {
     width: 40%;
+}
+
+.izquierda30
+{
+    width: 30%;
+}
+.derecha70
+{
+    width: 70%;
+}
+
+footer{
+	background-color: #333;
+	color: #fff;
 }
 footer .contenedor
 {
@@ -125,6 +101,7 @@ footer .contenedor
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-bottom: 25px;
+	
 }
 .copy
 {

@@ -10,7 +10,7 @@ body{
 }
 header{
 	width: 100%;
-	height: 120px;
+	height: 100px;
     background-color: red;
     color: white;
     position: fixed;
@@ -19,11 +19,9 @@ header{
 	z-index: 100;
     font-family: 'Merienda', cursive;
 	padding: 10px;
-   
-	margin:0px;
+    margin:0px;
    
 }
-
 
 .contenedor
 {
@@ -38,7 +36,7 @@ header{
 
 header .logo
 {
-	height: 100px;
+	height: 80px;
 }
 #logo{
     width:50%;
@@ -62,8 +60,26 @@ header .logo
     flex-wrap: wrap; 
 }
 
+
+
+#imagenes
+{
+	
+	top:100px;
+	position: relative;
+    height: 500px;
+	width: 100%;
+	background: url(../imagenes/lago2.jpeg) no-repeat;
+	background-size: cover;
+	margin: 0%;
+
+}
+
 main{
+	top:100px;
 	margin: 20px;
+	position: relative;
+	
 }
 
 .titulo {
@@ -83,28 +99,22 @@ p{
 }
 .izquierda
 {
-    width: 600%;
-}
+    width: auto;
+}	
 .derecha
 {
-    width: 40%;
+    
+	justify-content: center;
+	align-items:center;
+	padding: 20px;
 }
+
 
 .imgnota
 {
-    width: 300px;
+    width: 350px;
 }
 
-#imagenes
-{
-
-    height: 500px;
-	width: 100%;
-	background: url(../imagenes/lago2.jpeg) no-repeat;
-	background-size: cover;
-	margin: 0%;
-
-}
 
 .resaltado{
 
@@ -128,7 +138,7 @@ header label
 .menu
 {
 	position: absolute;
-	top:120px;
+	top:100px;
 	left:0;
 	width: 100%;
 	height: 100vh;
