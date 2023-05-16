@@ -38,9 +38,6 @@ header
 	width: 98%;
 	margin:auto;
 	cursor: pointer;
-<<<<<<< HEAD
-	align-items:flex-start ;
-=======
     align-items: center;
 } */
 header{
@@ -74,7 +71,6 @@ header{
 header .logo
 {
 	height: 100px;
->>>>>>> 427e3de41c53b061e7b6f20744ca1862c8b4e13d
 }
 
 h1
