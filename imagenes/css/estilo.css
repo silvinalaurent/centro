@@ -1,0 +1,169 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+body
+{
+    font-family: 'Molengo', sans-serif;
+	font-size: 20px;
+	line-height: 2em;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+    background-color: red;
+    color: white;
+    position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+    font-family: 'Merienda', cursive;
+   
+}
+
+
+header .contenedor
+{
+	width: 98%;
+	margin:auto;
+	cursor: pointer;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+h1
+{
+    font-size: 28px;
+}
+
+h2	{
+	
+}
+
+
+
+section
+{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#bienvenidos
+{
+	text-align: justify;
+}
+
+#bienvenidos p
+{
+	padding: 30px;
+	line-height: 1.5em;
+}
+
+
+.renglon
+{
+    display:flex;
+    flex-direction: row;
+}
+.izquierda
+{
+    width: 60%;
+}
+.derecha
+{
+    width: 40%;
+}
+
+.izquierda30
+{
+    width: 30%;
+}
+.derecha70
+{
+    width: 70%;
+}
+
+footer{
+	background-color: #333;
+	color: #fff;
+}
+footer .contenedor
+{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+	
+}
+.copy
+{
+	font-size: 20px;
+}
+
+.sociales
+{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a
+{
+	color: #333;
+	text-decoration: none;
+}
+
+
+#mail{
+	
+	padding:20px;
+	align-content: left;
+	line-height: 3em;
+
+}
+
+#mail form
+{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#mail input{
+	height: 30px;
+	
+}
+
+
+#mail textarea{
+	height: 80px;
+	
+}
+
+
+@media (min-width: 768px)
+{
+	.sociales{
+		width: auto;
+	}
+	footer .contenedor
+	{
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 1024px){
+	.contenedor 
+	{
+		width: 1000px;
+	}
+}
+
+
+
