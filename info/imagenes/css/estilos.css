@@ -10,7 +10,7 @@ body{
 }
 header{
 	width: 100%;
-	height: 100px;
+	height: 120px;
     background-color: red;
     color: white;
     position: fixed;
@@ -18,29 +18,9 @@ header{
 	left:0;
 	z-index: 100;
     font-family: 'Merienda', cursive;
-	padding: 5px;
+	padding: 10px;
 	margin:0px;
    
-}
-
-
-header .logo
-{
-	height:90px;
-}
-
-#encabezado
-{
-	padding:10px;
-	width:70%;
-}
-#menu{
-    width: 50%;
-    flex-wrap: wrap; 
-}
-
-main{
-	
 }
 
 
@@ -54,6 +34,28 @@ main{
 	align-items: center;
 	justify-content:space-between;
 }
+
+header .logo
+{
+	height: 100px;
+}
+
+#encabezado
+{
+	padding:20px;
+	width:70%;
+	justify-content: center;
+}
+#menu{
+    width: 50%;
+    flex-wrap: wrap; 
+}
+
+main{
+	
+}
+
+
 .contenedor2
 {
 	width: 90%;
@@ -83,22 +85,7 @@ p{
 {
     width: 30%;
 }
-.izquierda50
-{
-    width: 50%;
-}
-.derecha50
-{
-    width: 50%;
-}
-.izquierda30
-{
-    width: 30%;
-}
-.derecha70
-{
-    width: 70%;
-}
+
 .imgnota
 {
     width: 300px;
@@ -113,17 +100,17 @@ p{
 	border: 5px solid #fff;
 
 }
-#organigrama img
-{
-	 justify-content: center;
-}
+
 #imagenes
 {
+
     height: 500px;
 	width: 100%;
-	background: url(../imagenes/centrosaboyano.jpeg) repeat;
+	background: url(../imagenes/centro4.jpg) repeat;
 	background-size: cover;
-	margin-top: 100px;
+	
+	margin-top: 120px;
+
 }
 
 .resaltado{
@@ -155,18 +142,6 @@ ul{
 	padding-bottom: 50px;
 }
 
-table, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 5px;
-  }
-
-  th
-  {
-	background-color: grey;
-	font-weight: 500;
-  }
-
 /*Menu*/
 #menu-bar
 {
@@ -184,11 +159,11 @@ header label
 .menu
 {
 	position: absolute;
-	top:100px;
+	top:120px;
 	left:0;
 	width: 100%;
 	height: 100vh;
-	background: rgba(51,51,51,0.9);
+/*	background: rgba(51,51,51,0.9);*/
 	transition: all 0.5s;
 	transform: translateX(-100%);
 }
@@ -232,7 +207,6 @@ footer{
 		transform: translateX(0%);
 		float:right;
 		display:flex;
-		background: none;
 	}
 
 
@@ -251,34 +225,10 @@ footer{
 
 @media (max-width: 600px)
 {
-
-	header{
-		height: 100px;
-		padding: 5px;
-		}
-	
-	header .logo
-	{
-		height: 80px;
-	}
-
-	#encabezado
-	{
-		padding:10px;
-		width:100%;
-	}
-	#encabezado h1
-	{
-		font-size: 18px;
-	}
-	#encabezado h4
-	{
-		display:none;
-	
-	#imagenes
+			#imagenes
 		{
 			width: 100%;
-			background: url(../imagenes/centro5.jpeg) no-repeat;
+			background: url(../imagenes/lago2.jpeg) no-repeat;
 			background-size: cover;
 			margin: 0%;
 		
