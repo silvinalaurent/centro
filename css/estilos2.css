@@ -10,7 +10,7 @@ body{
 }
 header{
 	width: 100%;
-	height: 100px;
+	height:100px;
     background-color: red;
     color: white;
     position: fixed;
@@ -18,31 +18,40 @@ header{
 	left:0;
 	z-index: 100;
     font-family: 'Merienda', cursive;
-	padding: 5px;
+	padding: 0px;
 	margin:0px;
-   
 }
 
 
 header .logo
 {
-	height:90px;
+	height:80px;
 }
 
 #encabezado
 {
-	padding:10px;
+	padding:0px;
 	width:70%;
 }
 #menu{
-    width: 50%;
+	
+    width: 40%;
     flex-wrap: wrap; 
 }
 
-main{
-	
-}
 
+.contenedor_header
+{
+	width: 98%;
+	margin:0px;
+	padding:0px;
+	height: 100px;
+	cursor: pointer;
+	display:inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-between;
+}
 
 .contenedor
 {
@@ -167,12 +176,12 @@ table, th, td {
 	font-weight: 500;
   }
 
-/*Menu*/
+/*Menu*//*
 #menu-bar
 {
 	display: none;
 }
-
+/*
 header label
 {
 	float: right;
@@ -192,7 +201,7 @@ header label
 	transition: all 0.5s;
 	transform: translateX(-100%);
 }
-/*
+
 .menu a
 {
 	display: block;
@@ -212,7 +221,7 @@ header label
 {
 	transform: translateX(0%);
 }
-
+*/
 footer{
 	background-color: red;
 	color:white;
@@ -222,7 +231,7 @@ footer{
 .sociales img{
 	height: 30px;
 }
-
+/*
 @media (min-width: 1024px)
 {
 	.menu{
@@ -247,8 +256,8 @@ footer{
 	}
 }*/
 /*Fin Menu*/
-
-
+/*
+*/
 @media (max-width: 600px)
 {
 
@@ -275,6 +284,7 @@ footer{
 	{
 		display:none;
 	}
+
 	#imagenes
 		{
 			width: 100%;
@@ -283,6 +293,17 @@ footer{
 			margin: 0%;
 		
 		}
+	
+	.renglon
+		{
+			display:block;
+			
+		}
+	.izquierda, .derecha,.izquierda50, .derecha50, .izquierda30, .derecha70
+		{
+			width: 100%;
+		}
 		
+				
 	
 }
