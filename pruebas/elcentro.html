@@ -10,16 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Molengo&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos2.css">
-    <link rel="stylesheet" href="css/menu2.css">
-	<link rel="icon" type="image/png" href="imagenes/icono.png">
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="main.js"></script>
+<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
         
-        <div class="contenedor_header">
+        <div class="contenedor">
        
             <img class="logo" src="imagenes/logo.png" alt="">
             <div id="encabezado">
@@ -27,36 +23,18 @@
                 <h4>Polo de irradiacion de la rica cultura francesa heredada de nuestros ancestros</h4>
             </div>
        
-            <div id="menu"> 
-                <div class="menu_bar">
-                    <a href="#" class="bt-menu"><span class="icon-list2"></span><label class="icon-menu" for="menu-bar"></label></a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#"></span>Inicio</a></li>
-                        <li class="submenu">
-                            <a href="#">La Colonia</a>
-                            <ul class="children">
-                                <li><a href="index.html#origenes">Orígenes de la colonia San José.</a></li>
-                                <li><a href="index.html#primercontingente">Primer contingente de inmigrantes.</a></li>
-                                <li><a href="index.html#dedonde">¿De donde venimos?</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#">El Centro</a>
-                            <ul class="children">
-                                <li><a href="elcentro.html#organigrama">Organigrama</a></li>
-                                <li><a href="elcentro.html#comision">Comision Directiva</a></li>
-                                <li><a href="elcentro.html#objetivos">Objetivos</a></li>
-                                <li><a href="elcentro.html#edificio">El edificio</a></li>
-                            </ul>
-                        </li>
-                    
-                    </ul>
-                </nav>
-            </div>
+        <div id="menu"> 
+            <input type="checkbox" id="menu-bar">
+			<label class="icon-menu" for="menu-bar"></label>
+			<nav class="menu">
+                <a href="">Inicio</a>
+				<a href="index.html">Origenes</a>
+				<a href="elcentro.html">El Centro</a>
+				
+			</nav>
         </div>
     </header>
+    
         
     <section id="imagenes">
        
@@ -69,7 +47,7 @@
         <section id="organigrama" class="modo1">
             <div class="contenedor2">
                 <h2 class="titulo">Organigrama</h2>
-                <img id="organigrama" src="imagenes/organigrama.png" alt="Organigrama de la comision">
+                <img src="imagenes/organigrama.png" alt="">
             </div>
         </section>
 
@@ -232,7 +210,8 @@
                 <section id="culturales" class="modo1">
                     <div class="contenedor2">
                     <h2 class="titulo">Actividades culturales</h2>
-               |        <p>En el Centro Saboyano de San José se han realizado y se realizan innumerables actividades culturales: presentaciones de libros, conciertos de piano,  cursos de perfeccionamiento para docentes, investigaciones genealógicas, cursos de Historia y Geografía regional, conferencias sobre temas de interés para los locales como “la masonería en la colonia San José” o “El patrimonio arquitectónico en Pueblo Liebig”, exposiciones fotográficas como “Descendientes, los saboyanos de hoy”en los que se puede observar los rostro de  quienes descienden de aquellos saboyanos que llegaron a partir de 1857 en profesiones absolutamente diferente a los de sus ancestros o “La otra tierra” en la que se muestra como son hoy los pueblos de donde partieron nuestros antepasados. Ambas muestras tuvieron un rotundo éxito no solo en la ciudad sino también en localidades vecinas.
+               |        <p>
+                        En el Centro Saboyano de San José se han realizado y se realizan innumerables actividades culturales: presentaciones de libros, conciertos de piano,  cursos de perfeccionamiento para docentes, investigaciones genealógicas, cursos de Historia y Geografía regional, conferencias sobre temas de interés para los locales como “la masonería en la colonia San José” o “El patrimonio arquitectónico en Pueblo Liebig”, exposiciones fotográficas como “Descendientes, los saboyanos de hoy”en los que se puede observar los rostro de  quienes descienden de aquellos saboyanos que llegaron a partir de 1857 en profesiones absolutamente diferente a los de sus ancestros o “La otra tierra” en la que se muestra como son hoy los pueblos de donde partieron nuestros antepasados. Ambas muestras tuvieron un rotundo éxito no solo en la ciudad sino también en localidades vecinas.
                         </p>
                         <p>
                         La institución ha organizado para sus alumnos cuatro viajes a Francia; los jóvenes han podido conocer sus lugares de origen, la cultura y practicar la lengua. También algunos descendientes han participado en los viajes turísticos que se organizaron a Saboya y Alta Saboya, siempre tras las huellas de aquellos que una vez partieron hacia América del Sur.

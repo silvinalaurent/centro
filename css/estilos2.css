@@ -66,7 +66,7 @@ header .logo
 .contenedor2
 {
 	width: 90%;
-	margin:auto;
+	margin: 100px auto 50px;
 	
 }
 
@@ -159,7 +159,7 @@ ul{
 
 .modo2{
 	
-	background-color:rgb(187, 153, 133);
+	background-color:rgb(106, 166, 245);
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -287,12 +287,16 @@ footer{
 
 	#imagenes
 		{
+			margin-top:0px;
+			height: 200px;
 			width: 100%;
-			background: url(../imagenes/centro5.jpeg) no-repeat;
+			background: url(../imagenes/centro2.jpg) repeat;
 			background-size: cover;
-			margin: 0%;
+		
 		
 		}
+	
+
 	
 	.renglon
 		{
@@ -303,7 +307,11 @@ footer{
 		{
 			width: 100%;
 		}
-		
+
+	#organigrama
+	{
+		width: 100%;
+	}
 				
 	
 }

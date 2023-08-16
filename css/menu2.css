@@ -99,14 +99,14 @@ header nav ul li .caret {
 		padding:2px;
 		color: #fff;
 		overflow: hidden;
-		font-size:16px;
+		font-size:14px;
 		font-weight: bold;
 		text-decoration: none;
 	}
 
 	.menu_bar span {
 		float: right;
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	header nav {

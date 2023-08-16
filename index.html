@@ -10,12 +10,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Molengo&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/menu2.css">
+    <link rel="icon" type="image/png" href="imagenes/icono.png">
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="main.js"></script>
 </head>
 <body>
     <header>
         
-        <div class="contenedor">
+        <div class="contenedor_header">
        
             <img class="logo" src="imagenes/logo.png" alt="">
             <div id="encabezado">
@@ -23,16 +28,34 @@
                 <h4>Polo de irradiacion de la rica cultura francesa heredada de nuestros ancestros</h4>
             </div>
        
-        <div id="menu"> 
-            <input type="checkbox" id="menu-bar">
-			<label class="icon-menu" for="menu-bar"></label>
-			<nav class="menu">
-				<a href="">Inicio</a>
-				<a href="index.html">Origenes</a>
-				<a href="elcentro.html">El Centro</a>
-				
-				
-			</nav>
+            <div id="menu"> 
+                <div class="menu_bar">
+                    <a href="#" class="bt-menu"><span class="icon-list2"></span><label class="icon-menu" for="menu-bar"></label></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#"></span>Inicio</a></li>
+                        <li class="submenu">
+                            <a href="#">La Colonia</a>
+                            <ul class="children">
+                                <li><a href="index.html#origenes">Orígenes de la colonia San José.</a></li>
+                                <li><a href="index.html#primercontingente">Primer contingente de inmigrantes.</a></li>
+                                <li><a href="index.html#dedonde">¿De donde venimos?</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">El Centro</a>
+                            <ul class="children">
+                                <li><a href="elcentro.html#organigrama">Organigrama</a></li>
+                                <li><a href="elcentro.html#comision">Comision Directiva</a></li>
+                                <li><a href="elcentro.html#objetivos">Objetivos</a></li>
+                                <li><a href="elcentro.html#edificio">El edificio</a></li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     
