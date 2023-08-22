@@ -141,9 +141,9 @@ p{
 }
 
 
-ul{
+ul,ol{
 	line-height: 2em;
-	font-size:large;
+	font-size:medium;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	margin-left: 50px;	
@@ -159,7 +159,7 @@ ul{
 
 .modo2{
 	
-	background-color:rgb(106, 166, 245);
+	background-color:rgb(223, 224, 226);
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
