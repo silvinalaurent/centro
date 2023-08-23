@@ -38,6 +38,30 @@ header .logo
     width: 40%;
     flex-wrap: wrap; 
 }
+#menu_lateral
+{
+	width:20%;
+	height: 100%;
+	position: fixed;
+	background-color: rgb(167, 167, 167);
+	font-family: 'Merienda', cursive;
+	font-size: large;
+}
+#menu_lateral ul
+{ list-style: none;
+	line-height: 1.5em;
+}
+#menu_lateral li
+{
+	line-height: 1em;
+	
+}
+#menu_lateral a{
+	text-decoration: none;
+	color: black;
+
+	
+}
 
 
 .contenedor_header
