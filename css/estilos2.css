@@ -168,7 +168,8 @@ p{
 	margin-top: 100px;
 	margin-left: 250px;
 }
-
+.centrado
+{ text-align: center;}
 .resaltado{
 
 	font-weight: bolder !important;
